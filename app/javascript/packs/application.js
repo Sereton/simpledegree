@@ -8,6 +8,8 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 import 'bootstrap/dist/js/bootstrap'
+require("trix")
+require("@rails/actiontext")
 
 //= require popper
 //= require bootstrap-sprockets
@@ -28,3 +30,6 @@ window.$ = window.jQuery = jQuery;
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+require("trix")
+require("@rails/actiontext")
